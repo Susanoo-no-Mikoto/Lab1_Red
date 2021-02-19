@@ -17,7 +17,7 @@ function fsd(){
             a = arg2[i] / 100;
             a = summ * a;
             arr.push(a);
-            res = arg1 + a; 
+            res = summ + a; 
             console.log(arg2[i]+'%');
             console.log(res);
             let ss = 0;
