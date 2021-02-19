@@ -15,13 +15,10 @@ function fsd(){
             a = arg2[i] / 100;
             a = arg1 * a;
             res = arg1 + a;
-        //hhh();
-        //arr.push(answer);
             console.log(arg2[i]+'%');
             console.log(res);
         }
         arg.close();
-        //console.log(arg2);
     });
 }
 fsd();
