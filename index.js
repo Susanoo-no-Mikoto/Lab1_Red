@@ -18,8 +18,8 @@ function fsd(){
             a = summ * a;
             arr.push(a);
             res = summ + a; 
-            console.log(arg2[i]+'%');
-            console.log(res);
+            console.log('Процент:' + arg2[i]+'%');
+            console.log('Cумма за этот месяц:' + res);
             let ss = 0;
             for (let j = 0; j < arr.length; j++){
                 if ( arr[j-1] != isNaN){
@@ -33,7 +33,7 @@ function fsd(){
         //console.log(arr);
         
         
-        console.log(summ);
+        console.log('Итоговая сумма:' + summ);
         arg.close();
     });
 }
