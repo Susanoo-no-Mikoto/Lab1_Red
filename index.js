@@ -1,6 +1,6 @@
 const readline = require('readline');
 let arg1 = Number(process.argv[2]); // Изначальная стоимость инвестиционного портфеля
-function fsd(){
+function RiseInSharePrice(){
     const arg = readline.createInterface({
         input: process.stdin,
         output: process.stdout
@@ -37,5 +37,5 @@ function fsd(){
         arg.close();
     });
 }
-fsd();
+RiseInSharePrice();
     
